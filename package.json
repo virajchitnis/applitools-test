@@ -1,0 +1,17 @@
+{
+  "name": "applitools-test",
+  "version": "1.0.0",
+  "description": "Test project for applitools setup",
+  "author": "Viraj Chitnis",
+  "license": "MIT",
+  "scripts": {
+    "protractor": "protractor conf.js",
+    "update-webdriver": "webdriver-manager update",
+    "start-webdriver": "webdriver-manager start"
+  },
+  "devDependencies": {
+    "protractor": "^4.0.1",
+    "eyes.selenium": "^0.0.69",
+    "selenium-webdriver": "^3.5.0"
+  }
+}
